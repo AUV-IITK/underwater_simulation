@@ -278,7 +278,7 @@
       </offsetr>
     </ForceSensor>
   </vehicle>
-
+<!--
   <object>
     <name>terrain</name>
     <file>terrain/CIRS/cirs_trident.osg</file>
@@ -332,7 +332,7 @@
       <collisionShapeType> box </collisionShapeType>
     </physics>
   </object>
-
+-->
   <rosInterfaces>
     <ROSOdomToPAT>
       <topic> /dataNavigator </topic>

@@ -283,9 +283,9 @@
     <name>terrain</name>
     <file>terrain/pool/pool.osgt</file>
     <position>
-      <x> 0</x>
-      <y> 20 </y>
-      <z> 7 </z>
+      <x> -12.5</x>
+      <y> -22 </y>
+      <z> 9 </z>
     </position>
     <orientation>
       <r>0</r>
@@ -308,31 +308,63 @@
     </physics>
   </object>
 
-<!--
-  <object>
-    <name> blackbox </name>
-    <file> objects/blackbox_uib_trimesh.osg  </file>
+<object>
+    <name>pipe</name>
+    <file>objects/red.osg</file>
     <position>
-      <x> 0</x>
-      <y> 0 </y>
-      <z> 4.7 </z>
+      <x>0 </x>
+      <y>0  </y>
+      <z> 8 </z>
     </position>
     <orientation>
       <r>0</r>
-      <p>3.1415</p>
-      <y>0</y>
+      <p>0 </p>
+      <y>-0.3 </y>
     </orientation>
     <physics>
-      <mass> 15 </mass>
-      <inertia> 
-        <x> 0</x>
-        <y> 0 </y>
-        <z> 0 </z>
-      </inertia>
-      <collisionShapeType> box </collisionShapeType>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
     </physics>
   </object>
--->
+
+<object>
+    <name>pipe</name>
+    <file>objects/green.osg</file>
+    <position>
+      <x>2 </x>
+      <y>0  </y>
+      <z> 8 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>-0.3 </y>
+    </orientation>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+<object>
+    <name>pipe</name>
+    <file>objects/yellow.osg</file>
+    <position>
+      <x>-2 </x>
+      <y>0  </y>
+      <z> 8 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>-0.3 </y>
+    </orientation>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
   <rosInterfaces>
     <ROSOdomToPAT>
       <topic> /dataNavigator </topic>
@@ -422,4 +454,3 @@
     </ForceSensorROS>
   </rosInterfaces>
 </UWSimScene>
-

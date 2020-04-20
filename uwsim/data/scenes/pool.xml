@@ -279,6 +279,22 @@
     </ForceSensor>
   </vehicle>
 
+  <vehicle>
+    <name>arena</name>
+    <file>data/scenes/scene.urdf</file>
+    <position>
+      <x> 0</x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0</p>
+      <y>0</y>
+    </orientation>
+  </vehicle>
+
+<!--
   <object>
     <name>terrain</name>
     <file>terrain/pool/pool.osgt</file>
@@ -364,7 +380,7 @@
       <collisionShapeType> trimesh </collisionShapeType>
     </physics>
   </object>
-
+-->
   <rosInterfaces>
     <ROSOdomToPAT>
       <topic> /dataNavigator </topic>

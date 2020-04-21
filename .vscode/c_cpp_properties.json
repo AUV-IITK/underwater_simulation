@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/opt/ros/melodic/include/**",
+        "/mnt/ntfs/AUV/projTriton/devel/include/**",
+        "/mnt/ntfs/AUV/Anahita/catkin_ws/devel/include/**",
+        "/mnt/ntfs/AUV/projTriton/src/underwater_simulation/uwsim/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

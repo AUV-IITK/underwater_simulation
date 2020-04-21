@@ -152,10 +152,102 @@
           filename="package://arena_setup/meshes/base_link.STL" />
       </geometry>
     </collision>
-  </link>
+</link>
 <joint name="torpedo_to_pool" type="fixed">
   <parent link="pool"/>
   <child link="torpedo_link"/>
+  <origin rpy="0 0 0.0" xyz="10 8 0"/>
+</joint>
+
+<link
+    name="green_torpedo">
+    <inertial>
+      <origin
+        xyz="-0.14517 -0.011 -0.1143"
+        rpy="0 0 0" />
+      <mass
+        value="5.273" />
+      <inertia
+        ixx="0.22004945667143"
+        ixy="-1.09001210857872E-18"
+        ixz="0.00683612879661238"
+        iyy="0.439673556814738"
+        iyz="-1.36896150209481E-17"
+        izz="0.220049456671429" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arena_setup/meshes/green_torpedo.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arena_setup/meshes/green_torpedo.STL" />
+      </geometry>
+    </collision>
+</link>
+<joint name="green_torpedo_to_pool" type="fixed">
+  <parent link="pool"/>
+  <child link="green_torpedo"/>
+  <origin rpy="0 0 0.0" xyz="10 8 0"/>
+</joint>
+
+<link
+    name="red_torpedo">
+    <inertial>
+      <origin
+        xyz="-0.14517 -0.011 -0.1143"
+        rpy="0 0 0" />
+      <mass
+        value="5.273" />
+      <inertia
+        ixx="0.22004945667143"
+        ixy="-1.09001210857872E-18"
+        ixz="0.00683612879661238"
+        iyy="0.439673556814738"
+        iyz="-1.36896150209481E-17"
+        izz="0.220049456671429" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arena_setup/meshes/red_torpedo.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://arena_setup/meshes/red_torpedo.STL" />
+      </geometry>
+    </collision>
+</link>
+<joint name="red_torpedo_to_pool" type="fixed">
+  <parent link="pool"/>
+  <child link="red_torpedo"/>
   <origin rpy="0 0 0.0" xyz="10 8 0"/>
 </joint>
 <!--

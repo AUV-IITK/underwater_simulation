@@ -1,0 +1,7 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/mnt/ntfs/AUV/projTriton/devel/lib/python2.7/dist-packages",
+        "/mnt/ntfs/AUV/Anahita/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ]
+}

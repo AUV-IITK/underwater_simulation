@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE UWSimScene SYSTEM "UWSimScene.dtd" >
+
+<UWSimScene>
+  <oceanState>
+    <windx> 1.0 </windx>
+    <windy> 1.0 </windy>
+    <windSpeed> 12 </windSpeed>
+    <depth> 10000 </depth>
+    <reflectionDamping> 0.35 </reflectionDamping>
+    <waveScale> 1e-8 </waveScale>
+    <isNotChoppy> 0 </isNotChoppy>
+    <choppyFactor> -2.5 </choppyFactor>
+    <crestFoamHeight> 2.2 </crestFoamHeight>
+    <oceanSurfaceHeight> 0 </oceanSurfaceHeight>
+    <fog>
+      <density> 0.1 </density>
+      <color>
+	<r>0.017</r>
+	<g>0.027</g>
+	<b>0.079</b>
+      </color>
+    </fog>
+    <color>
+	<r>0.017</r>
+	<g>0.027</g>
+	<b>0.079</b>
+    </color>
+    <attenuation>
+      <r>0.015</r>
+      <g>0.0075 </g>
+      <b> 0.005 </b>
+    </attenuation>
+  </oceanState>
+
+  <simParams>
+    <disableShaders> 0 </disableShaders>
+    <resw> 800 </resw>
+    <resh> 600 </resh>
+    <enablePhysics> 0 </enablePhysics>
+  </simParams>
+
+  <camera>
+    <freeMotion> 1 </freeMotion>
+    <objectToTrack>girona500/base_link</objectToTrack>
+    <fov> 60 </fov>
+    <aspectRatio> 1.33 </aspectRatio>
+    <near> 1 </near>
+    <far> 10000 </far>
+    <position>
+      <x>16</x>
+      <y>9 </y>
+      <z>-7 </z>
+    </position> 
+    <lookAt>
+      <x>5</x>
+      <y>7 </y>
+      <z>-10 </z>
+    </lookAt>
+  </camera>
+
+ <vehicle>
+    <name>girona500</name>
+    <file>data/scenes/g500ARM5.urdf</file>
+    <jointValues>
+      <joint> 0 </joint>
+      <joint> M_PI_4</joint>
+      <joint> M_PI_4 </joint>
+      <joint> 0 </joint>
+      <joint>1.5 </joint>
+      <joint> 0 </joint>
+      <joint> 0 </joint>
+      <joint> 0 </joint>
+      <joint> 2.5 </joint>
+      <joint> 2.5 </joint>
+      <joint> 2.5 </joint>
+    </jointValues>
+    <position>
+      <x> 5</x>
+      <y> 7 </y>
+      <z> -10 </z>
+    </position>
+    <orientation>
+      <r>3.1415</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+
+  
+
+  </vehicle>
+
+
+
+  <object>
+    <name>terrain</name>
+    <file>terrain/shipwreck/terrain.ive</file>
+    <position>
+      <x> 0</x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 0 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 1.94 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 3.88 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 5.82 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 9.68 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 11.62 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> 7.74 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -1.94 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -3.88 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -5.82 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -7.74 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -9.68 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <object>
+    <name>pipe</name>
+    <file>objects/pipe.3ds</file>
+    <position>
+      <x> 0</x>
+      <y> -11.62 </y>
+      <z> -13 </z>
+    </position>
+    <orientation>
+      <r>0</r>
+      <p>0 </p>
+      <y>0 </y>
+    </orientation>
+    <scaleFactor>
+      <x>0.001</x>
+      <y>0.001</y>
+      <z>0.001</z>
+    </scaleFactor>
+    <physics>
+      <mass> 0 </mass>
+      <collisionShapeType> trimesh </collisionShapeType>
+    </physics>
+  </object>
+
+  <rosInterfaces>
+    <ROSOdomToPAT>
+      <topic> /dataNavigator </topic>
+      <vehicleName> girona500 </vehicleName>
+    </ROSOdomToPAT>
+    <PATToROSOdom>
+      <topic> /uwsim/girona500 </topic>
+      <vehicleName> girona500 </vehicleName>
+    </PATToROSOdom>
+
+    <WorldToROSTF>
+      <rootName> world </rootName>
+      <enableObjects> 0 </enableObjects>
+      <rate>10</rate>
+    </WorldToROSTF>
+
+   <ArmToROSJointState> 
+	<topic>/G500/joint_state</topic>
+	<vehicleName> girona500 </vehicleName>
+    </ArmToROSJointState>
+    <ROSJointStateToArm> 
+	<topic>/G500/joint_state_command</topic>
+	<vehicleName> girona500 </vehicleName>
+    </ROSJointStateToArm>
+
+
+  </rosInterfaces>
+
+</UWSimScene>
+

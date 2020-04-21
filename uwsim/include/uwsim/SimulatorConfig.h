@@ -40,7 +40,7 @@
 /* #undef BUILD_BULLET_PHYSICS */
 
 //UWSim root folder
-#define UWSIM_ROOT_PATH "/home/ayush/Projects/auv/uwsim_ws/install/share/uwsim"
+#define UWSIM_ROOT_PATH "/mnt/ntfs/AUV/p2/install/share/uwsim"
 
 //Operating system
 /* #undef WIN32 */

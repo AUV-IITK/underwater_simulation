@@ -209,7 +209,7 @@
 <joint name="green_torpedo_to_pool" type="fixed">
   <parent link="pool"/>
   <child link="green_torpedo"/>
-  <origin rpy="0 0 0.0" xyz="10 8 0"/>
+  <origin rpy="0 0 0.0" xyz="10 8 4"/>
 </joint>
 
 <link
@@ -251,7 +251,7 @@
 <joint name="red_torpedo_to_pool" type="fixed">
   <parent link="pool"/>
   <child link="red_torpedo"/>
-  <origin rpy="0 0 3.141592653589793238" xyz="10.33 8 0"/>
+  <origin rpy="0 0 3.141592653589793238" xyz="10.33 8 4"/>
 </joint>
 <!--
 <link name="gate_marker3">

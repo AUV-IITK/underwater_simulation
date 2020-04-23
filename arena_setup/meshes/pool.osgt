@@ -3,31 +3,31 @@
 #Generator osgexport 0.14.2
 
 osg::Group {
-  UniqueID 20
+  UniqueID 107
   Name "Root"
   Children 1 {
     osg::MatrixTransform {
-      UniqueID 0
+      UniqueID 86
       Name "Cube"
       Children 1 {
         osg::Geode {
-          UniqueID 19
+          UniqueID 106
           Name "GeodeCube"
           Drawables 1 {
             osg::Geometry {
-              UniqueID 2
+              UniqueID 88
               Name "Cube"
               StateSet TRUE {
                 osg::StateSet {
-                  UniqueID 3
+                  UniqueID 89
                   Name "Material.001"
                   DataVariance DYNAMIC
                   UserDataContainer TRUE {
                     osg::DefaultUserDataContainer {
-                      UniqueID 17
+                      UniqueID 103
                       UDC_UserObjects 1 {
                         osg::StringValueObject {
-                          UniqueID 18
+                          UniqueID 104
                           Name "source"
                           Value "blender"
                         }
@@ -36,65 +36,65 @@ osg::Group {
                   }
                   AttributeList 1 {
                     osg::Material {
-                      UniqueID 4
+                      UniqueID 90
                       Name "Material.001"
                       DataVariance DYNAMIC
                       UserDataContainer TRUE {
                         osg::DefaultUserDataContainer {
-                          UniqueID 5
+                          UniqueID 91
                           UDC_UserObjects 11 {
                             osg::StringValueObject {
-                              UniqueID 6
+                              UniqueID 92
                               Name "source"
                               Value "blender"
                             }
                             osg::StringValueObject {
-                              UniqueID 7
+                              UniqueID 93
                               Name "DiffuseIntensity"
                               Value "0.800000011920929"
                             }
                             osg::StringValueObject {
-                              UniqueID 8
+                              UniqueID 94
                               Name "DiffuseColor"
-                              Value "[ 0.800000, 0.800000, 0.800000 ]"
+                              Value "[ 0.252605, 0.834137, 1.000000 ]"
                             }
                             osg::StringValueObject {
-                              UniqueID 9
+                              UniqueID 95
                               Name "SpecularIntensity"
                               Value "0.5"
                             }
                             osg::StringValueObject {
-                              UniqueID 10
+                              UniqueID 96
                               Name "SpecularColor"
-                              Value "[ 1.000000, 1.000000, 1.000000 ]"
+                              Value "[ 0.000000, 1.000000, 1.000000 ]"
                             }
                             osg::StringValueObject {
-                              UniqueID 11
+                              UniqueID 97
                               Name "SpecularHardness"
                               Value "50"
                             }
                             osg::StringValueObject {
-                              UniqueID 12
+                              UniqueID 98
                               Name "Emit"
                               Value "0.0"
                             }
                             osg::StringValueObject {
-                              UniqueID 13
+                              UniqueID 99
                               Name "Ambient"
                               Value "1.0"
                             }
                             osg::StringValueObject {
-                              UniqueID 14
+                              UniqueID 100
                               Name "Translucency"
                               Value "0.0"
                             }
                             osg::StringValueObject {
-                              UniqueID 15
+                              UniqueID 101
                               Name "DiffuseShader"
                               Value "LAMBERT"
                             }
                             osg::StringValueObject {
-                              UniqueID 16
+                              UniqueID 102
                               Name "SpecularShader"
                               Value "COOKTORR"
                             }
@@ -102,8 +102,8 @@ osg::Group {
                         }
                       }
                       Ambient TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
-                      Diffuse TRUE Front 0.64000 0.64000 0.64000 1.00000 Back 0.64000 0.64000 0.64000 1.00000
-                      Specular TRUE Front 0.50000 0.50000 0.50000 1.00000 Back 0.50000 0.50000 0.50000 1.00000
+                      Diffuse TRUE Front 0.20208 0.66731 0.80000 1.00000 Back 0.20208 0.66731 0.80000 1.00000
+                      Specular TRUE Front 0.00000 0.50000 0.50000 1.00000 Back 0.00000 0.50000 0.50000 1.00000
                       Emission TRUE Front 0.00000 0.00000 0.00000 1.00000 Back 0.00000 0.00000 0.00000 1.00000
                       Shininess TRUE Front 12.50000 Back 12.50000
                     }
@@ -134,7 +134,7 @@ osg::Group {
                   }
               }
               VertexData {
-                Array TRUE ArrayID 0 Vec3fArray 56 {
+                Array TRUE ArrayID 8 Vec3fArray 56 {
                   -0.15596 -1.00000 -5.29213
                   -0.15596 -1.00000 -3.29213
                   -0.15596 1.00000 -3.29213
@@ -197,7 +197,7 @@ osg::Group {
                 Normalize 0
               }
               NormalData {
-                Array TRUE ArrayID 1 Vec3fArray 56 {
+                Array TRUE ArrayID 9 Vec3fArray 56 {
                   -1.00000 -0.00000 0.00000
                   -1.00000 -0.00000 0.00000
                   -1.00000 -0.00000 0.00000
